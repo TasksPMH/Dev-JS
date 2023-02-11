@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Scripts -->
+    </head>
+
+  <body>
+    <div id="app">
+      <div>
+        <button id="sort-name">Sort by Name</button>
+        <button id="sort-price">Sort by Price</button>
+      </div>
+      <div>
+        <input type="number" id="limit-number" placeholder="Limit Quantity">
+        <button id="limit-submit">Submit</button>
+      </div>
+      <div id="product-panel">
+        <ul id="product-list">
+        </ul>
+        <div id="popup-panel">
+          Description:
+          <p id="popup-description"></p>
+          <div>Price:</div><span id="popup-price"></span>
+          <div>Rating:</div><span id="popup-rating"></span>
+          <div>Stock:</div><span id="popup-stock"></span>
+          <div>Brand:</div><span id="popup-brand"></span>
+        </div>
+      </div>
+    </div>
+      <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #product-list {
+    width: 20%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #product-panel {
+    display: flex;
+    
+    width: 80%;
+    padding: 20px;
+  }
+  #product-list li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+  }
+  
+  #product-list li:hover {
+    background-color: lightgray;
+  }
+  
+  #popup-panel {
+    width: 80%;
+    padding: 20px;
+    background-color: lightgray;
+    display: none;
+  }
+  
+  #popup-description {
+    font-weight: bold;
+  }
+  
+  #popup-features {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .drag-button {
+    padding: 0 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: move;
+  }
